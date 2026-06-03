@@ -110,3 +110,16 @@ exit available before completion.)
 Deliver the core package-delivery workflow first. Explicitly **out of MVP scope**
 (deferred): digital wallets, multi-stop deliveries, business accounts, subscriptions,
 international shipping.
+
+## Build Status
+
+**MVP shipped 2026-06-04.** Delivered in this build:
+
+- Auth + role-based access for Customer / Courier / Admin.
+- Customer: booking flow with live cost quote, real-time tracking map, status timeline,
+  chat, history, ratings, disputes.
+- Courier: jobs board with online/offline toggle, verification gate, 9-status job flow,
+  photo + e-signature proof capture, earnings.
+- Admin: overview/analytics, live deliveries monitor, courier verification, pricing
+  rules, dispute review.
+- Demo seed data included.
