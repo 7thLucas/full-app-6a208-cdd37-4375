@@ -1,0 +1,57 @@
+<style>
+  .mode-portrait .sl-found { flex-direction: column; }
+  .mode-portrait .sl-found-visual { width: 100%; min-height: 30%; }
+  .mode-portrait .sl-found-text { width: 100%; }
+  .mode-landscape .sl-found { flex-direction: row; }
+  .mode-landscape .sl-found-visual { width: 38%; }
+  .mode-landscape .sl-found-text { width: 62%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-found flex w-full h-full">
+    <!-- Narrative -->
+    <div class="sl-found-text flex flex-col justify-center p-14">
+      <p class="text-xs uppercase tracking-[0.28em] mb-3" style="color:#3D2BFF;">The Foundation</p>
+      <h2 class="font-black tracking-tight text-[#0F1222] mb-10" style="font-size:clamp(1.9rem,3.4vw,2.8rem);">
+        Sending a package shouldn't feel like a leap of faith.
+      </h2>
+
+      <div class="grid gap-6" style="grid-template-columns:1fr 1fr;">
+        <!-- Problem -->
+        <div class="rounded-2xl p-6 border" style="border-color:#FFE3B0;background:#FFFaf0;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#B5760A;">The Problem</span>
+          <p class="mt-3 text-[#0F1222] font-semibold leading-snug">Custody goes dark the moment it leaves your hands.</p>
+          <ul class="mt-4 space-y-2.5 text-sm text-[#4A4F63]">
+            <li class="flex gap-2"><span style="color:#FFB020;">•</span> No idea where the package actually is.</li>
+            <li class="flex gap-2"><span style="color:#FFB020;">•</span> "Was it delivered?" — and to whom?</li>
+            <li class="flex gap-2"><span style="color:#FFB020;">•</span> No proof of condition at pickup or drop-off.</li>
+            <li class="flex gap-2"><span style="color:#FFB020;">•</span> Disputes become one person's word against another's.</li>
+          </ul>
+        </div>
+        <!-- Solution -->
+        <div class="rounded-2xl p-6 border" style="border-color:#C7F0EB;background:#F0FCFA;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#0B7D72;">The Solution</span>
+          <p class="mt-3 text-[#0F1222] font-semibold leading-snug">A live trust layer over every delivery.</p>
+          <ul class="mt-4 space-y-2.5 text-sm text-[#4A4F63]">
+            <li class="flex gap-2"><span style="color:#0FB5A6;">✓</span> Watch the courier move on a live map.</li>
+            <li class="flex gap-2"><span style="color:#0FB5A6;">✓</span> Photo proof captured at pickup and drop-off.</li>
+            <li class="flex gap-2"><span style="color:#0FB5A6;">✓</span> E-signature confirms the recipient got it.</li>
+            <li class="flex gap-2"><span style="color:#0FB5A6;">✓</span> Fast matching keeps couriers earning, customers confident.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="mt-9 text-sm leading-relaxed text-[#4A4F63]" style="max-width:40rem;">
+        Pakettt! connects customers and couriers in a marketplace where every handoff is
+        visible and verifiable — not just "request a courier," but delivery you can prove.
+      </p>
+    </div>
+
+    <!-- Visual -->
+    <div class="sl-found-visual relative overflow-hidden" style="background:#0F1222;">
+      <img class="absolute inset-0 w-full h-full object-cover opacity-90"
+           src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=courier%20handing%20a%20package%20to%20a%20customer%20at%20a%20doorstep%2C%20phone%20capturing%20a%20delivery%20photo%20proof%2C%20warm%20natural%20light%2C%20trustworthy%20modern%20logistics"
+           alt="Courier capturing photo proof at handoff" />
+      <div class="absolute inset-0" style="background:linear-gradient(180deg,rgba(15,18,34,0.1),rgba(15,18,34,0.6));"></div>
+    </div>
+  </div>
+</section>

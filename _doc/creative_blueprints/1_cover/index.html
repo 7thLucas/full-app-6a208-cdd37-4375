@@ -1,0 +1,56 @@
+<style>
+  .mode-portrait .sl-cover { flex-direction: column; }
+  .mode-portrait .sl-cover-visual { width: 100%; min-height: 38%; }
+  .mode-portrait .sl-cover-content { width: 100%; }
+  .mode-landscape .sl-cover { flex-direction: row; }
+  .mode-landscape .sl-cover-visual { width: 42%; }
+  .mode-landscape .sl-cover-content { width: 58%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <!-- Content -->
+    <div class="sl-cover-content flex flex-col justify-between p-14" style="background:#0F1222;">
+      <div class="flex items-center gap-3">
+        <div class="flex items-center justify-center w-10 h-10 rounded-xl" style="background:#3D2BFF;">
+          <span class="text-white text-xl font-black">P</span>
+        </div>
+        <span class="text-white text-lg font-semibold tracking-tight">Pakettt!</span>
+        <span class="ml-2 text-[11px] uppercase tracking-[0.2em] px-2.5 py-1 rounded-full" style="background:rgba(15,181,166,0.15);color:#0FB5A6;">Delivery Marketplace</span>
+      </div>
+
+      <div class="max-w-2xl">
+        <p class="text-sm uppercase tracking-[0.28em] mb-5" style="color:#FFB020;">Verifiable delivery you can watch happen</p>
+        <h1 class="text-white font-black leading-[0.98] tracking-tight" style="font-size:clamp(2.6rem,5.4vw,4.6rem);">
+          Send it.<br/>
+          <span style="color:#0FB5A6;">Track it.</span><br/>
+          Prove it.
+        </h1>
+        <p class="mt-7 text-lg leading-relaxed" style="color:#C5C8D6;max-width:34rem;">
+          A package delivery marketplace built around a live trust layer — real-time map
+          tracking, photo proof at pickup and drop-off, and e-signature on receipt.
+        </p>
+      </div>
+
+      <div class="pt-8 border-t" style="border-color:rgba(255,255,255,0.1);">
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Visual -->
+    <div class="sl-cover-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+           src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=aerial%20city%20map%20at%20dusk%20with%20a%20glowing%20indigo%20delivery%20route%20line%20and%20a%20courier%20on%20a%20scooter%2C%20teal%20location%20pins%2C%20modern%20logistics%20app%20aesthetic%2C%20cinematic"
+           alt="Live delivery route across a city" />
+      <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(61,43,255,0.35),rgba(15,18,34,0.15));"></div>
+      <div class="absolute bottom-6 left-6 right-6 rounded-2xl p-4 backdrop-blur" style="background:rgba(15,18,34,0.72);">
+        <div class="flex items-center justify-between">
+          <span class="text-xs uppercase tracking-widest" style="color:#0FB5A6;">In Transit</span>
+          <span class="text-xs" style="color:#C5C8D6;">Arriving soon</span>
+        </div>
+        <div class="mt-2 h-1.5 w-full rounded-full" style="background:rgba(255,255,255,0.12);">
+          <div class="h-1.5 rounded-full" style="width:72%;background:#0FB5A6;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

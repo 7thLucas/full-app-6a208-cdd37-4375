@@ -1,0 +1,61 @@
+<style>
+  .mode-portrait .sl-ben { flex-direction: column; }
+  .mode-portrait .sl-ben-metrics { grid-template-columns: 1fr 1fr; }
+  .mode-portrait .sl-ben-roi { width: 100%; }
+  .mode-landscape .sl-ben { flex-direction: row; }
+  .mode-landscape .sl-ben-metrics { grid-template-columns: 1fr 1fr; }
+  .mode-landscape .sl-ben-roi { width: 38%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col w-full h-full p-14">
+    <div class="mb-9">
+      <p class="text-xs uppercase tracking-[0.28em] mb-3" style="color:#3D2BFF;">The Payoff</p>
+      <h2 class="font-black tracking-tight text-[#0F1222]" style="font-size:clamp(1.9rem,3.4vw,2.8rem);">
+        Trust you can measure on both sides of the handoff.
+      </h2>
+    </div>
+
+    <div class="sl-ben flex gap-6 flex-1">
+      <!-- Metric cards -->
+      <div class="sl-ben-metrics grid gap-5 flex-1" style="align-content:start;">
+        <div class="rounded-2xl p-6 border" style="border-color:#E3E5EE;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#3D2BFF;">Confidence</span>
+          <p class="mt-2 font-black text-[#0F1222]" style="font-size:2rem;">100%</p>
+          <p class="text-sm text-[#4A4F63] mt-1">of deliveries carry photo proof at pickup and drop-off.</p>
+        </div>
+        <div class="rounded-2xl p-6 border" style="border-color:#E3E5EE;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#0B7D72;">Visibility</span>
+          <p class="mt-2 font-black text-[#0F1222]" style="font-size:2rem;">Live</p>
+          <p class="text-sm text-[#4A4F63] mt-1">real-time map tracking from request to "Delivered."</p>
+        </div>
+        <div class="rounded-2xl p-6 border" style="border-color:#E3E5EE;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#B5760A;">Speed</span>
+          <p class="mt-2 font-black text-[#0F1222]" style="font-size:2rem;">Fast match</p>
+          <p class="text-sm text-[#4A4F63] mt-1">nearby online couriers get requests instantly, cutting wait time.</p>
+        </div>
+        <div class="rounded-2xl p-6 border" style="border-color:#E3E5EE;">
+          <span class="text-[11px] uppercase tracking-[0.2em] font-semibold" style="color:#3D2BFF;">Accountability</span>
+          <p class="mt-2 font-black text-[#0F1222]" style="font-size:2rem;">2-way</p>
+          <p class="text-sm text-[#4A4F63] mt-1">ratings after every completed delivery keep quality high.</p>
+        </div>
+      </div>
+
+      <!-- ROI summary -->
+      <div class="sl-ben-roi rounded-2xl p-8 flex flex-col justify-between" style="background:#0F1222;">
+        <div>
+          <p class="text-[11px] uppercase tracking-[0.22em]" style="color:#0FB5A6;">Why it wins</p>
+          <h3 class="text-white font-black leading-tight mt-3" style="font-size:1.6rem;">Fewer disputes. Faster deliveries. Repeat customers.</h3>
+          <p class="text-sm leading-relaxed mt-4" style="color:#C5C8D6;">
+            The live trust layer turns the riskiest moment — the handoff — into the most
+            documented one. Customers come back because they can watch and verify; couriers
+            keep earning because matching is fast and proof protects them too.
+          </p>
+        </div>
+        <div class="mt-6 pt-6 border-t" style="border-color:rgba(255,255,255,0.12);">
+          <p class="text-sm font-semibold" style="color:#FFB020;">MVP focus</p>
+          <p class="text-xs mt-1" style="color:#9AA0B4;">Core package-delivery workflow first. Wallets, multi-stop, business accounts, subscriptions and international shipping come later.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
